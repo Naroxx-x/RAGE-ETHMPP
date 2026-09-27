@@ -1,0 +1,46 @@
+# RageSMP - settings
+max-rage: 5
+
+# Rage gained/lost
+kill-rage: 1
+death-rage-loss: 1
+
+# If the killer is already at max-rage at the moment of the kill, they gain nothing:
+# instead, a "Rage Shard" drops on the ground where the victim died.
+# Any player can pick it up and right-click it to gain overkill-drop-rage-amount Rage.
+overkill-drop-enabled: true
+overkill-drop-rage-amount: 1
+
+# Bonus per level (extra damage percentage)
+damage-bonus:
+  0: 0.0
+  1: 5.0
+  2: 10.0
+  3: 15.0
+  4: 20.0
+  5: 25.0
+
+# Extra hearts starting at Rage 3.
+extra-hearts:
+  0: 0.0
+  1: 0.0
+  2: 0.0
+  3: 2.0
+  4: 4.0
+  5: 6.0
+
+# Rage 4: after this many consecutive hits on the same target,
+# the next hit ignores part of the target's armor.
+armor-break-hits: 5
+armor-break-percent: 25.0
+
+# Rage 5: shield disable duration, in seconds.
+shield-disable-seconds: 2
+
+# Rage 1: after this many consecutive sword hits,
+# following hits are treated as critical until you miss.
+blood-combo-hits: 3
+critical-multiplier: 1.5
+
+# Rage 2
+speed-amplifier: 0
